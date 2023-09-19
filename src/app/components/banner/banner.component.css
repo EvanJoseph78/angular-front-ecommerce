@@ -1,0 +1,15 @@
+.image__container > img {
+  width: 100vw;
+}
+
+.paginador {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.paginador > span > img {
+  max-width: 10px;
+}
