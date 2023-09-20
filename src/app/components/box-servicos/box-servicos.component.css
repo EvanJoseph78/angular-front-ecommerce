@@ -1,0 +1,40 @@
+.box-servicos__container{
+  /* border: 1px solid red; */
+  width: 1240px;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr); /* Cria três colunas de largura igual */
+  gap: 20px;
+}
+
+.box-servicos__container-banner{
+  /* border: 1px solid blue; */
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.box-servicos__container-banner img {
+  max-width: 100%; /* Defina a largura máxima da imagem como 100% */
+  height: auto; /* Isso mantém a proporção original da imagem */
+  /* Outros estilos específicos da imagem, se necessário */
+}
+
+.box-servicos__container-banner > p{
+  text-align: center;
+  color: black;
+}
+
+.box-servicos__container-banner > button {
+  margin-top: 10px;
+  background: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+}

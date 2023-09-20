@@ -15,7 +15,7 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     TitleBarComponent,
     BannerComponent,
     BoxServicosComponent,
-    RodapeComponent
+    RodapeComponent,
   ],
   imports: [
     BrowserModule
