@@ -1,8 +1,23 @@
 .rodape__container {
   margin-top: 50px;
-  background: green;
+  border: 1px solid blue;
+  background: #1b1b1b;
   /* position: fixed; */
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.infos > a{
+  text-decoration: none;
+  color: white;
 }
